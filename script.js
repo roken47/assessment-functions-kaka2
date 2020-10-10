@@ -8,16 +8,4 @@ function multiply(a, b) {
   }
   return total;
 }
-// function multiply(a, b) {
-//   let count = 0;
-//   let runningTotal = 0;
-//   let total = 0;
-//   while (b > count) {
-//     count++;
-//     runnningTotal = add(a, 0);
-//     total += runningTotal;
-//   }
-//   return total;
-// }
-// console.log("Multiply Function: ", multiply(4, 3));
 // function power() {}
