@@ -31,4 +31,18 @@ function factorial(a) {
   }
   return total;
 }
-//Attempt extra-credit!
+//Attempt extra-credit! https://medium.com/developers-writing/fibonacci-sequence-algorithm-in-javascript-b253dc7e320e
+/* found on Medium.com
+function fibonacci(num){
+  var a = 1, b = 0, temp;
+
+  while (num >= 0){
+    temp = a;
+    a = a + b;
+    b = temp;
+    num--;
+  }
+
+  return b;
+}
+*/
