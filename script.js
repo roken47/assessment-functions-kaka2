@@ -25,7 +25,7 @@ function factorial(a) {
       }
   while (a > count) {
     a = add(a, -1);
-    total = power(total, a);
+    total = multiply(total, a);
   }
   return total;
 }
