@@ -18,7 +18,6 @@ function power(a, b) {
   return total;
 }
 function factorial(a) {
-  //5! = 5 * 4 * 3 * 2 * 1 = 120
   let total = a;
   if (a === 0 || a === 1) {
       return 1
@@ -29,3 +28,4 @@ function factorial(a) {
   }
   return total;
 }
+//Attempt extra-credit!
