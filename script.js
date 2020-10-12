@@ -8,4 +8,12 @@ function multiply(a, b) {
   }
   return total;
 }
-// function power() {}
+function power(a, b) {
+  let count = 0;
+  let total = 1;
+  while (b > count) {
+    count = add(count, 1);
+    total = multiply(a, total);
+  }
+  return total;
+}
