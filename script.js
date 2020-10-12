@@ -11,6 +11,9 @@ function multiply(a, b) {
 function power(a, b) {
   let count = 0;
   let total = 1;
+  if (a === 0) {
+    return 0
+  }
   while (b > count) {
     count = add(count, 1);
     total = multiply(a, total);
